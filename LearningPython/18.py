@@ -14,3 +14,4 @@ if 9 <= now.month <= 11:
 if 12 <= now.month <= 2:
     print("이번 달은 {}월로 겨울입니다!".format(now.month))
 
+    
