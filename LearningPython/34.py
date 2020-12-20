@@ -2,7 +2,7 @@
 
 print("요소 추가 이전:", dictionary)
 
-dicitionary["name"] = "새로운 이름"
+dictionary["name"] = "새로운 이름"
 dictionary["head"] = "새로운 정신"
 dictionary["body"] = "새로운 몸"
 
