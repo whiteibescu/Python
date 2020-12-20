@@ -11,5 +11,5 @@ print("ingredient:", dictionary["ingredient"])
 print("origin:", dictionary["origin"])
 print()
 
-dicitonary["name"] = "8D 건조 망고"
+dictionary["name"] = "8D 건조 망고"
 print("name:", dictionary["name"])
