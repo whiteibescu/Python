@@ -11,4 +11,4 @@ print("- choice([1, 2, 3,0 4, 5]):", random.choice([1, 2,  3, 4, 5]))
 
 print("- shuffle([1, 2, 3, 4, 5]:", random.shuffle([1, 2, 3, 4, 5]))
 
-print("- sample([1, 2, 3, 4, 5], k=2):", random.sample([1, 2, 3, 4, 5], k=2))
+print("- sample([ 1, 2, 3, 4, 5], k=2):", random.sample([1, 2, 3, 4, 5], k=2))
