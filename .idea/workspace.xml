@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1fac6b5-3a7f-46f6-8ee2-1eeac9ef2647" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LearningPython/112.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611227015426</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="112">
+      <created>1611227433537</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611227433537</updated>
+    </task>
+    <task id="LOCAL-00022" summary="113">
+      <created>1611413484597</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611413484597</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,60 +367,8 @@
     <MESSAGE value="108" />
     <MESSAGE value="109" />
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1609604402146">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609604402146" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1611041794377">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611041794377" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1611041794377">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611041794377" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1611041794376">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611041794376" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1611041794377">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611041794377" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609939434884">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609939434884" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1609939434884">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609939434884" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1609939434884">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609939434884" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1609939434884">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609939434884" />
-    <state x="535" y="114" key="RollbackChangesDialog" timestamp="1610014150176">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="535" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610014150176" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1609689517115">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609689517115" />
-    <state x="599" y="281" key="VCS.EditChangelistDialog" timestamp="1611226742254">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="599" y="281" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1611226742254" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611227018257">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611227018257" />
+    <MESSAGE value="112" />
+    <MESSAGE value="113" />
+    <option name="LAST_COMMIT_MESSAGE" value="113" />
   </component>
 </project>
