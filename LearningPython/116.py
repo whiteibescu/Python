@@ -9,3 +9,6 @@ class Student:
     def get_sum(self):
         return self.korean + self.math +\
             self.english + self.science
+
+    def get_average(self):
+        return self.get_sum() / 4
