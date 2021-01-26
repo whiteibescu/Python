@@ -6,3 +6,6 @@ class Student:
         self.english = english
         self.science = science
 
+    def get_sum(self):
+        return self.korean + self.math +\
+            self.english + self.science
