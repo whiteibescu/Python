@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1fac6b5-3a7f-46f6-8ee2-1eeac9ef2647" name="Default Changelist" comment="StudentScore.py" />
+    <list default="true" id="c1fac6b5-3a7f-46f6-8ee2-1eeac9ef2647" name="Default Changelist" comment="Assignment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -359,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618470022509</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Assignment">
+      <created>1618493618123</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618493618123</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,6 +405,7 @@
     <MESSAGE value="BankAccount" />
     <MESSAGE value="HeadTail" />
     <MESSAGE value="StudentScore.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="StudentScore.py" />
+    <MESSAGE value="Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment" />
   </component>
 </project>
