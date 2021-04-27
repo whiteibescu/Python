@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1fac6b5-3a7f-46f6-8ee2-1eeac9ef2647" name="Default Changelist" comment="face recognition">
-      <change afterPath="$PROJECT_DIR$/Hustar/Kivy.py" afterDir="false" />
+    <list default="true" id="c1fac6b5-3a7f-46f6-8ee2-1eeac9ef2647" name="Default Changelist" comment="Kivy">
+      <change afterPath="$PROJECT_DIR$/Hustar/Kivy.kv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hustar/Kivy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hustar/Kivy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.Assignment (1)">
+  <component name="RunManager" selected="Python.Kivy">
     <configuration name="Assignment (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BankAccount" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Kivy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hustar/BankAccount.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hustar/Kivy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Kivy" />
         <item itemvalue="Python.Assignment (1)" />
         <item itemvalue="Python.Assignment2" />
         <item itemvalue="Python.Assignment" />
         <item itemvalue="Python.StudentScore" />
-        <item itemvalue="Python.BankAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619434295416</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Kivy">
+      <created>1619496893275</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1619496893275</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="file_close02" />
     <MESSAGE value="file_close01" />
     <MESSAGE value="try_except_else_finally" />
     <MESSAGE value="try_return01" />
@@ -446,6 +453,7 @@
     <MESSAGE value="assignment" />
     <MESSAGE value="commit" />
     <MESSAGE value="face recognition" />
-    <option name="LAST_COMMIT_MESSAGE" value="face recognition" />
+    <MESSAGE value="Kivy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kivy" />
   </component>
 </project>
