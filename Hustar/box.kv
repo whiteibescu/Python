@@ -1,0 +1,46 @@
+#:import Factory kivy.factory.Factory
+
+BoxLayout:
+    orientation: 'vertical'
+    Upper_bar:
+        size_hint: (1, 0.9)
+        Camera:
+            id : camera
+    Under_bar:
+        id: underbar
+        size_hint: (1, 0.1)
+        Button:
+            text: "Location"
+            on_release: Factory.LocationPop().open()
+        Button:
+            text: "Capture"
+            on_press: app.capture()
+        Button:
+            text: "Sticker"
+
+<LocationPop@Popup>:
+    size_hint: (0.85, 0.85)
+    auto_dismiss: False
+    title: "okay where should we save?"
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserIconView:
+            id: filechooser
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                on_release:
+                    app.Save_path = filechooser.path
+                    root.dismiss()
+                text: "Save"
+
+            Label:
+                #Empty Space between two Buttons.
+
+            Button:
+                text: "Cancel"
+                on_release: root.dismiss()

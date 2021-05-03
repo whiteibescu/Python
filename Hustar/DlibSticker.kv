@@ -1,0 +1,120 @@
+#:import Factory kivy.factory.Factory
+
+BoxLayout:
+    orientation: 'vertical'
+
+    Upper_bar:
+        size_hint: (1, 0.9)
+        MyCamera:
+            id: camera
+
+    ScrollView:
+        size_hint: (1, 0.1)
+        do_scroll_x: True
+        do_scroll_y: False
+
+        Under_bar:
+            size_hint_x: 1.0
+
+            Button:
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (.8,.6,.4,1) if self.state=='normal' else (0,.7,.7,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [18,]
+                text: 'Location'
+                on_press: Factory.LocationPop().open()
+
+            Button:
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (.8,.6,.4,1) if self.state=='normal' else (0,.7,.7,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [18,]
+                text: 'Save'
+
+                on_release:
+                    app.printOpenImage()
+                    app.imageSave()
+
+                text: '저장'
+
+            Button:
+                background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                canvas.before:
+                    Color:
+                        rgba: (.8,.6,.4,1) if self.state=='normal' else (0,.7,.7,1)  # visual feedback of press
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [18,]
+
+                text: 'Sticker'
+                on_release:
+                    Factory.SelectPop().open()
+
+
+
+<LocationPop@Popup>:
+    size_hint: (0.9, 0.9)
+    auto_dismiss: False
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: 'vertical'
+
+        FileChooserIconView:
+
+            id: filechooser
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                on_release:
+                    app.Save_path = filechooser.path
+                    print(app.Save_path)
+                    root.dismiss()
+
+                text: '저장'
+
+            Label:
+
+            Button:
+                text: 'Cancel'
+                on_release: root.dismiss()
+
+<SelectPop@Popup>:
+    size_hint: (0.9, 0.9) #사이즈 정하기
+    auto_dismiss: False #뒤부분 클릭하면 꺼지지 않게 하기
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: 'vertical'
+        FileChooserIconView:
+            id: choosesticker
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                on_release:
+                    on_selection: root.selected(choosesticker.selection)
+                    root.dismiss()
+
+                text: '선택'
+
+            Label:
+
+            Button:
+                text: 'Cancel'
+                on_release: root.dismiss()
+
+
+
