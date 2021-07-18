@@ -23,6 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1fac6b5-3a7f-46f6-8ee2-1eeac9ef2647" name="Default Changelist" comment="Kivy">
+      <change afterPath="$PROJECT_DIR$/IOT/Exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/Exercise2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/Exercise3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/example4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/example5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/example6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/exercise1-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/exercise4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOT/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.testKivy">
@@ -485,5 +496,23 @@
     <MESSAGE value="face recognition" />
     <MESSAGE value="Kivy" />
     <option name="LAST_COMMIT_MESSAGE" value="Kivy" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1624807937522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1624807937522" />
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1624808012743">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624808012743" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1624808019391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1624808019391" />
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1624807870645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1624807870645" />
   </component>
 </project>
