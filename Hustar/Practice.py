@@ -13,3 +13,5 @@ for person in classroom:
         person.study()
     elif isinstance(person, Teacher):
         person.teach()
+
+#클래스
